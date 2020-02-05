@@ -23,4 +23,9 @@ interface iMessenger
      */
     public function setMessage(string $value): iMessenger;
 
+    /**
+     * @return bool
+     */
+    public function send(): bool;
+
 }

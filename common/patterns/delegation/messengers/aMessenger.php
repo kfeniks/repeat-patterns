@@ -52,4 +52,12 @@ abstract class aMessenger implements iMessenger
 
         return $this;
     }
+
+    /**
+     * @return bool
+     */
+    public function send(): bool
+    {
+        return false;
+    }
 }
