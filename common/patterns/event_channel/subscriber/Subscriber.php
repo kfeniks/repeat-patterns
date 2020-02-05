@@ -2,8 +2,13 @@
 
 namespace common\patterns\event_channel\subscriber;
 
-class Subscriber
+class Subscriber implements iSubscriber
 {
+
+    /**
+     * @var string
+     */
+    private $name;
 
     /**
      * Subscriber constructor.
@@ -11,6 +16,12 @@ class Subscriber
      */
     public function __construct(string $name)
     {
+        $this->name = $name;
+    }
+
+    public function getName(): string
+    {
+        return $this->name;
     }
 
 }
