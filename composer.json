@@ -1,0 +1,15 @@
+{
+    "name": "turist/alex",
+    "description": "Some project - testing patterns",
+    "authors": [
+        {
+            "name": "Dubinin A",
+            "email": "keccgroup@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Acme\\": "src/"}
+    }
+}
